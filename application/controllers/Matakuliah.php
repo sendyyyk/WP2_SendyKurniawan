@@ -3,7 +3,6 @@ class Matakuliah extends CI_Controller {
     public function index() {
         $this->load->helper('url');
         $this->load->view('view-form-matakuliah');
-        
     }
     
     public function cetak() {
